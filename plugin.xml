@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.4"?>
+
+<plugin>
+   <extension-point id="com.genericworkflownodes.knime.mime.demangler.Demangler" name="Demangler" schema="schema/com.genericworkflownodes.knime.mime.demangler.Demangler.exsd"/>
+   <extension-point id="com.genericworkflownodes.knime.execution.CommandGenerator" name="CommandGenerator" schema="schema/com.genericworkflownodes.knime.execution.CommandGenerator.exsd"/>
+   <extension-point id="com.genericworkflownodes.knime.execution.Executor" name="Executor" schema="schema/com.genericworkflownodes.knime.execution.Executor.exsd"/>
+   <extension-point id="com.genericworkflownodes.knime.filesplitter" name="FileSplitter" schema="schema/com.genericworkflownodes.knime.filesplitter.exsd"/>
+   <extension
+         point="org.knime.workbench.repository.nodesets">
+      <nodeset
+            deprecated="false"
+            factory-class="de.openms.dynamic.OpenMSNodeSetFactory">
+      </nodeset>
+   </extension>
+   <extension
+         point="org.knime.workbench.repository.categories">
+      <category
+            icon="icons/missing.gif"
+            level-id="openms"
+            locked="true"
+            name="OpenMS"
+            path="/community">
+      </category>
+   </extension>
+   <extension
+         point="org.knime.base.filehandling.mimetypes">
+      <mimetype name="application/x-dta">
+      <fileextension name="dta"/>
+    </mimetype>
+    <mimetype name="application/x-dta2d">
+      <fileextension name="dta2d"/>
+    </mimetype>
+    <mimetype name="application/x-mzdata">
+      <fileextension name="MzData"/>
+    </mimetype>
+    <mimetype name="application/x-mzxml">
+      <fileextension name="MzXML"/>
+    </mimetype>
+    <mimetype name="application/x-featurexml">
+      <fileextension name="featureXML"/>
+    </mimetype>
+    <mimetype name="application/x-idxml">
+      <fileextension name="idXML"/>
+    </mimetype>
+    <mimetype name="application/x-consensusxml">
+      <fileextension name="consensusXML"/>
+    </mimetype>
+    <mimetype name="application/x-mgf">
+      <fileextension name="mgf"/>
+    </mimetype>
+    <mimetype name="application/x-ini">
+      <fileextension name="ini"/>
+    </mimetype>
+    <mimetype name="application/x-toppas">
+      <fileextension name="toppas"/>
+    </mimetype>
+    <mimetype name="application/x-transformationxml">
+      <fileextension name="trafoXML"/>
+    </mimetype>
+    <mimetype name="application/x-mzml">
+      <fileextension name="mzML"/>
+    </mimetype>
+    <mimetype name="application/x-ms2">
+      <fileextension name="ms2"/>
+    </mimetype>
+    <mimetype name="application/x-pepxml">
+      <fileextension name="pepXML"/>
+    </mimetype>
+    <mimetype name="application/x-protxml">
+      <fileextension name="protXML"/>
+    </mimetype>
+    <mimetype name="application/x-mzidentml">
+      <fileextension name="mzid"/>
+    </mimetype>
+    <mimetype name="application/x-gelml">
+      <fileextension name="GelML"/>
+    </mimetype>
+    <mimetype name="application/x-traml">
+      <fileextension name="TraML"/>
+    </mimetype>
+    <mimetype name="application/x-msp">
+      <fileextension name="msp"/>
+    </mimetype>
+    <mimetype name="application/x-omssaxml">
+      <fileextension name="xml"/>
+    </mimetype>
+    <mimetype name="application/x-mascotxml">
+      <fileextension name="xml"/>
+    </mimetype>
+    <mimetype name="image/png">
+      <fileextension name="png"/>
+    </mimetype>
+    <mimetype name="application/x-xmass">
+      <fileextension name="fid"/>
+    </mimetype>
+    <mimetype name="text/tsv">
+      <fileextension name="tsv"/>
+    </mimetype>
+    <mimetype name="text/csv">
+      <fileextension name="csv"/>
+    </mimetype>
+    <mimetype name="application/x-mrm">
+      <fileextension name="mrm"/>
+    </mimetype>
+    <mimetype name="application/x-peplist">
+      <fileextension name="pepList"/>
+    </mimetype>
+    <mimetype name="application/x-hardkloer">
+      <fileextension name="hardkloer"/>
+    </mimetype>
+    <mimetype name="application/x-kroenik">
+      <fileextension name="kroenik"/>
+    </mimetype>
+    <mimetype name="application/x-fasta">
+      <fileextension name="fasta"/>
+      <fileextension name="fa"/>
+    </mimetype>
+    <mimetype name="application/x-edta">
+      <fileextension name="EDTA"/>
+    </mimetype>
+    <mimetype name="application/x-psq">
+      <fileextension name="psq"/>
+    </mimetype>
+    <mimetype name="application/x-exe">
+      <fileextension name="exe"/>
+    </mimetype>
+    <mimetype name="application/x-mzquantml">
+      <fileextension name="mzq"/>
+    </mimetype>
+    <mimetype name="application/x-qcml">
+      <fileextension name="qcml"/>
+    </mimetype>
+    <mimetype name="application/x-mztab">
+      <fileextension name="mzTab"/>
+    </mimetype>
+   </extension>
+   
+
+   
+   
+   
+</plugin>

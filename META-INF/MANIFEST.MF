@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dynamically Loaded OpenMS Nodes
+Bundle-SymbolicName: de.openms.dynamic;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Vendor: Alexander Fillbrunn
+Require-Bundle: org.knime.core;bundle-version="[3.0.0,4.0.0)",
+ org.knime.base;bundle-version="[3.0.0,4.0.0)",
+ com.genericworkflownodes.knime;bundle-version="0.8.100",
+ org.knime.workbench.repository;bundle-version="3.4.0",
+ org.eclipse.ui;bundle-version="3.108.0",
+ org.knime.base.filehandling;bundle-version="3.4.0"
+Eclipse-RegisterBuddy: org.knime.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Activator: de.openms.dynamic.OpenMSBundleActivator
+Bundle-ActivationPolicy: lazy
