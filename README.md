@@ -15,3 +15,5 @@ files (plugin.xml, META-INF/MANIFEST.MF)
 - (export as a plugin or create an update site)
 
 Please have a look in the subfolders for further instructions.
+
+TODO describe and add files for the support for "Eclipse fragments" for cross-platform executables.
